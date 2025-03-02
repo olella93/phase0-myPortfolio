@@ -1,0 +1,94 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-image: url(../img/luke-chesser-3rWagdKBF7U-unsplash.jpg);
+    background-size: cover; 
+            
+}
+
+.intro{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.tag-line{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    flex: space-between;
+    margin: 0 10px;
+}
+
+a:hover{
+    color: orangered;
+}
+
+.page-title{
+    font-size: 2.5rem;
+    margin: 10px 0 0 0;
+    
+}
+
+.passport-image{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px black solid;
+
+}
+
+#about-me, #contact-me{
+    color: orangered;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    align-items: center;
+}
+
+p {
+color: white;
+}
+
+.nav-one{
+    gap: 30px;
+    
+    top: 20px;
+    left: 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-one{
+    text-align: center;
+}
